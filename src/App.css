@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  background-color:black;
+  color:white;
+  width:550px;
+  height:120px;
+  margin-left:400px;
+  margin-top:100px;
+  border-radius:10px;
+}
+
+.container .current_number{
+  float:right;
+  font-size:30px;
+  font-family:sans-serif;
+}
+.container .prev_number{
+  padding-top:50px;
+  margin-left:450px;
+  color:aqua;
+  font-size:18px;
+  font-family:monospace;
+}
+
+.buttons{
+  border:1px solid white;
+  width:550px;
+  height:450px;
+  margin-left:400px;
+}
+.buttons button{
+  width:135px;
+  height:70px;
+  border:1px solid white;
+  font-size:20px;
+  font-family:sans-serif;
+  cursor:pointer;
+
+}
+.buttons button:hover{
+  text-decoration:underline;
+  color:aqua;
+}
+
+#span{
+  width:270px;
+}
